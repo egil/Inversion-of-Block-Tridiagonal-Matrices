@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.NonPipelinedStigsFormulae" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAQAAAAAAAAAAABAAAAAAAAIAAAA=</HashCode>
+      <FileName>NonPipelinedStigsFormulae.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.PipelinedStigsFormulae" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAARAAQAAAAAAAAgBABAAAAAAAAIAAAA=</HashCode>
+      <FileName>PipelinedStigsFormulae.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.StigsFormulae&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAIiAAAAAIAQAACAAAABBAAAAgAABAEAAAAQlIBAAA=</HashCode>
+      <FileName>StigsFormulae.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.MatrixOperations.Inverse&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAAAAAAAACAAAAAAIAAQEAADAAAAQAQBIIAAA=</HashCode>
+      <FileName>MatrixOperations\Inverse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.MatrixOperations.LUFactorization&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAABAAAAACAAAAAAAAAAgAABAAAAAAQAIAAAA=</HashCode>
+      <FileName>MatrixOperations\LUFactorization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.MatrixOperations.MinusPlusPlus&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAABAAAAACAAAAAAAAAA0AABAAAAAAQAIAAAA=</HashCode>
+      <FileName>MatrixOperations\MinusPlusPlus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.MatrixOperations.Multiply&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAABAAAAACAAAAAAAAAAkAABAAAAAAQAIAAAA=</HashCode>
+      <FileName>MatrixOperations\Multiply.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.MatrixOperations.MinusMatrixInverseMatrixMultiply&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAAAAAAAACAAAAgAIAAAgAABIAAEAAUBIAAAA=</HashCode>
+      <FileName>MatrixOperations\MinusMatrixInverseMatrixMultiply.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.MatrixOperations.PlusMultiply&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAABAAAAACAAAAAAAAAA0AABAAAAAAQAIAAAA=</HashCode>
+      <FileName>MatrixOperations\PlusMultiply.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.MatrixOperations.SimpleProducer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAgAIAAAA=</HashCode>
+      <FileName>MatrixOperations\SimpleProducer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.MatrixOperations.TileOperation&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAECAAAAAAAAAAAAABAAAAAAQAIAAAA=</HashCode>
+      <FileName>MatrixOperations\TileOperation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.MatrixOperations.UntileOperation&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAIAAAACAABAAAAAAAAAABAAAAAAQAIAAAA=</HashCode>
+      <FileName>MatrixOperations\UntileOperation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="TiledMatrixInversion.ParallelBlockMatrixInverterSlim.IProducer&lt;T&gt;">
+    <Position X="3.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAIAAAA=</HashCode>
+      <FileName>IProducer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
