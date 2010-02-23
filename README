@@ -1,3 +1,3 @@
-Bachelor project: We aim to understand the algorithm for block tridiagonal matrix inversion, and evaluate the theoretic performance gain by parallelizing the calculation, as presented in (Skelboe, S. (2009)). The Scheduling of a Parallel Tiled Matrix Inversion Algorithm), by implementing a prototype of the algorithm.
+Bachelor project: We aim to understand the algorithm for block tridiagonal matrix inversion, and evaluate the theoretic performance gain by parallelizing the calculation, as presented in (Skelboe, S. (2009). The Scheduling of a Parallel Tiled Matrix Inversion Algorithm), by implementing a prototype of the algorithm.
 
 The bachelor report produced in this project can be found in the download section at http://github.com/downloads/egil/Inversion-of-Block-Tridiagonal-Matrices/Inversion-of-Block-Tridiagonal-Matrices.pdf
