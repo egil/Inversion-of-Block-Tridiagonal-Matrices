@@ -1,0 +1,76 @@
+::JOBNAME::
+MinusMatrixInverseMatrixMultiply
+
+::EXECUTE::
+mono Experiments-static.exe 92 64 m2500x2500-a.mat m2500x2500-b.mat 10 
+mv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply-ts-10.csv 
+mv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply-ts-10.csv 
+mv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply-ts-10.csv
+mono Experiments-static.exe 92 64 m2500x2500-a.mat m2500x2500-b.mat 20 
+mv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply-ts-20.csv 
+mv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply-ts-20.csv 
+mv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply-ts-20.csv
+mono Experiments-static.exe 92 64 m2500x2500-a.mat m2500x2500-b.mat 30 
+mv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply-ts-30.csv 
+mv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply-ts-30.csv 
+mv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply-ts-30.csv
+mono Experiments-static.exe 92 64 m2500x2500-a.mat m2500x2500-b.mat 40 
+mv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply-ts-40.csv 
+mv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply-ts-40.csv 
+mv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply-ts-40.csv
+mono Experiments-static.exe 92 64 m2500x2500-a.mat m2500x2500-b.mat 50 
+mv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply-ts-50.csv 
+mv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply-ts-50.csv 
+mv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply-ts-50.csv
+mono Experiments-static.exe 92 64 m2500x2500-a.mat m2500x2500-b.mat 60 
+mv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply-ts-60.csv 
+mv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply-ts-60.csv 
+mv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply-ts-60.csv
+mono Experiments-static.exe 92 64 m2500x2500-a.mat m2500x2500-b.mat 70 
+mv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply-ts-70.csv 
+mv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply-ts-70.csv 
+mv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply-ts-70.csv
+mono Experiments-static.exe 92 64 m2500x2500-a.mat m2500x2500-b.mat 80 
+mv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreaded.MinusMatrixInverseMatrixMultiply-ts-80.csv 
+mv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-Parallel.MinusMatrixInverseMatrixMultiply-ts-80.csv 
+mv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply.csv result-m2500x2500-a.mat-SingleThreadedTiled.MinusMatrixInverseMatrixMultiply-ts-80.csv
+zip -m result-MinusMatrixInverseMatrixMultiply_2500x2500.zip *.csv
+
+::NOTIFY::
+msn: SETTINGS
+
+::INPUTFILES::
+m2500x2500-a.mat
+m2500x2500-b.mat
+Experiments-static.exe
+Experiments.exe
+Experiments.exe.config
+TiledMatrixInversion.BlockMatrixInverter.dll
+TiledMatrixInversion.Math.dll
+TiledMatrixInversion.ParallelBlockMatrixInverterSlim.dll
+TiledMatrixInversion.Resources.dll
+
+::OUTPUTFILES::
+result-MinusMatrixInverseMatrixMultiply_2500x2500.zip
+
+::EXECUTABLES::
+
+::MEMORY::
+8192
+
+::DISK::
+1
+
+::CPUTIME::
+9000
+
+::RUNTIMEENVIRONMENT::
+
+::VGRID::
+DIKU
+
+::CPUCOUNT::
+8
+
+::ARCHITECTURE::
+AMD64

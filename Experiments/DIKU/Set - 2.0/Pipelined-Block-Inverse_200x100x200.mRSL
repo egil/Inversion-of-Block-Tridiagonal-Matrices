@@ -1,0 +1,57 @@
+::JOBNAME::
+Block Inverse
+
+::EXECUTE::
+mono Experiments-static.exe 68 2 ds200x100x200.btm 10
+mv result-ds200x100x200.btm-Parallel.BlockInverse.csv result-ds200x100x200.btm-Parallel.BlockInverse-tl-10.csv 
+mono Experiments-static.exe 68 2 ds200x100x200.btm 20
+mv result-ds200x100x200.btm-Parallel.BlockInverse.csv result-ds200x100x200.btm-Parallel.BlockInverse-tl-20.csv 
+mono Experiments-static.exe 68 2 ds200x100x200.btm 30
+mv result-ds200x100x200.btm-Parallel.BlockInverse.csv result-ds200x100x200.btm-Parallel.BlockInverse-tl-30.csv 
+mono Experiments-static.exe 68 2 ds200x100x200.btm 40
+mv result-ds200x100x200.btm-Parallel.BlockInverse.csv result-ds200x100x200.btm-Parallel.BlockInverse-tl-40.csv 
+mono Experiments-static.exe 68 2 ds200x100x200.btm 50
+mv result-ds200x100x200.btm-Parallel.BlockInverse.csv result-ds200x100x200.btm-Parallel.BlockInverse-tl-50.csv 
+mono Experiments-static.exe 68 2 ds200x100x200.btm 25
+mv result-ds200x100x200.btm-Parallel.BlockInverse.csv result-ds200x100x200.btm-Parallel.BlockInverse-tl-25.csv 
+mono Experiments-static.exe 68 2 ds200x100x200.btm 35
+mv result-ds200x100x200.btm-Parallel.BlockInverse.csv result-ds200x100x200.btm-Parallel.BlockInverse-tl-35.csv 
+mono Experiments-static.exe 68 2 ds200x100x200.btm 80
+mv result-ds200x100x200.btm-Parallel.BlockInverse.csv result-ds200x100x200.btm-Parallel.BlockInverse-tl-80.csv 
+zip -m result-ds200x100x200.btm-Parallel.BlockInverse.zip *.csv
+
+::NOTIFY::
+msn: SETTINGS
+
+::INPUTFILES::
+ds200x100x200.btm
+Experiments-static.exe
+Experiments.exe
+Experiments.exe.config
+TiledMatrixInversion.BlockMatrixInverter.dll
+TiledMatrixInversion.Math.dll
+TiledMatrixInversion.ParallelBlockMatrixInverterSlim.dll
+TiledMatrixInversion.Resources.dll
+
+::OUTPUTFILES::
+result-ds200x100x200.btm-Parallel.BlockInverse.zip
+
+::MEMORY::
+8192
+
+::DISK::
+1
+
+::CPUTIME::
+9000
+
+::RUNTIMEENVIRONMENT::
+
+::VGRID::
+DIKU
+
+::CPUCOUNT::
+8
+
+::ARCHITECTURE::
+AMD64

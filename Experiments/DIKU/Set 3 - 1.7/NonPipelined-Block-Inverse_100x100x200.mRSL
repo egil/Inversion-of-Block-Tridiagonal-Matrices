@@ -1,0 +1,43 @@
+::JOBNAME::
+Block Inverse
+
+::EXECUTE::
+mono Experiments-static.exe 2 2 ds100x100x200.btm
+
+::NOTIFY::
+msn: SETTINGS
+
+::INPUTFILES::
+ds100x100x200.btm
+Experiments-static.exe
+Experiments.exe
+Experiments.exe.config
+TiledMatrixInversion.BlockMatrixInverter.dll
+TiledMatrixInversion.Math.dll
+TiledMatrixInversion.ParallelBlockMatrixInverterSlim.dll
+TiledMatrixInversion.Resources.dll
+
+::OUTPUTFILES::
+result-ParallelNonPipelined.BlockInverse.csv
+
+::EXECUTABLES::
+
+::MEMORY::
+8192
+
+::DISK::
+1
+
+::CPUTIME::
+9000
+
+::RUNTIMEENVIRONMENT::
+
+::VGRID::
+DIKU
+
+::CPUCOUNT::
+8
+
+::ARCHITECTURE::
+AMD64

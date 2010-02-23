@@ -1,0 +1,59 @@
+::JOBNAME::
+Inverse
+
+::EXECUTE::
+mono Experiments-static.exe 68 4 m2500x2500-a.mat m2500x2500-b.mat 10 
+mv result-m2500x2500-a.mat-Parallel.Inverse.csv result-m2500x2500-a.mat-Parallel.Inverse-ts-10.csv 
+mono Experiments-static.exe 68 4 m2500x2500-a.mat m2500x2500-b.mat 20 
+mv result-m2500x2500-a.mat-Parallel.Inverse.csv result-m2500x2500-a.mat-Parallel.Inverse-ts-20.csv 
+mono Experiments-static.exe 68 4 m2500x2500-a.mat m2500x2500-b.mat 30 
+mv result-m2500x2500-a.mat-Parallel.Inverse.csv result-m2500x2500-a.mat-Parallel.Inverse-ts-30.csv 
+mono Experiments-static.exe 68 4 m2500x2500-a.mat m2500x2500-b.mat 40 
+mv result-m2500x2500-a.mat-Parallel.Inverse.csv result-m2500x2500-a.mat-Parallel.Inverse-ts-40.csv 
+mono Experiments-static.exe 68 4 m2500x2500-a.mat m2500x2500-b.mat 50 
+mv result-m2500x2500-a.mat-Parallel.Inverse.csv result-m2500x2500-a.mat-Parallel.Inverse-ts-50.csv 
+mono Experiments-static.exe 68 4 m2500x2500-a.mat m2500x2500-b.mat 60 
+mv result-m2500x2500-a.mat-Parallel.Inverse.csv result-m2500x2500-a.mat-Parallel.Inverse-ts-60.csv 
+mono Experiments-static.exe 68 4 m2500x2500-a.mat m2500x2500-b.mat 70 
+mv result-m2500x2500-a.mat-Parallel.Inverse.csv result-m2500x2500-a.mat-Parallel.Inverse-ts-70.csv 
+mono Experiments-static.exe 68 4 m2500x2500-a.mat m2500x2500-b.mat 80 
+mv result-m2500x2500-a.mat-Parallel.Inverse.csv result-m2500x2500-a.mat-Parallel.Inverse-ts-80.csv 
+zip -m result-Inverse_2500x2500-parallel-only.zip *.csv
+
+::NOTIFY::
+msn: SETTINGS
+
+::INPUTFILES::
+m2500x2500-a.mat
+Experiments-static.exe
+Experiments.exe
+Experiments.exe.config
+TiledMatrixInversion.BlockMatrixInverter.dll
+TiledMatrixInversion.Math.dll
+TiledMatrixInversion.ParallelBlockMatrixInverterSlim.dll
+TiledMatrixInversion.Resources.dll
+
+::OUTPUTFILES::
+result-Inverse_2500x2500-parallel-only.zip
+
+::EXECUTABLES::
+
+::MEMORY::
+8192
+
+::DISK::
+1
+
+::CPUTIME::
+9000
+
+::RUNTIMEENVIRONMENT::
+
+::VGRID::
+DIKU
+
+::CPUCOUNT::
+8
+
+::ARCHITECTURE::
+AMD64

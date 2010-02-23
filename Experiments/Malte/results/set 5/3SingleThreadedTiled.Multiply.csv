@@ -1,0 +1,20 @@
+
+Running time
+	10	15	20	25	30	40	50	60	
+0	00:00:18.6419785	00:00:16.5697675	00:00:15.6627035	00:00:15.5903342	00:00:15.3197382	00:00:15.2389999	00:00:15.2576500	00:00:15.2427100	
+
+Number of times a thread has waited for work
+	10	15	20	25	30	40	50	60	
+0	0	0	0	0	0	0	0	0	
+
+Number of times a thread has completed a computational kernel
+	10	15	20	25	30	40	50	60	
+0	0	0	0	0	0	0	0	0	
+
+Number of times a thread has received work from a secondary producer (in pipelined mode)
+	10	15	20	25	30	40	50	60	
+0	0	0	0	0	0	0	0	0	
+
+Number of times threads have waited to long for a pulse / waited to long for a pulse when producer was completed
+	10	15	20	25	30	40	50	60	
+0	0/0	0/0	0/0	0/0	0/0	0/0	0/0	0/0	
